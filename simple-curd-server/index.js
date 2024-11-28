@@ -20,7 +20,6 @@ const client = new MongoClient(process.env.URI, {
   }
 });
 
-
 async function run() {
   try {
     await client.connect();
