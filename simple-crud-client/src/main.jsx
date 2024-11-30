@@ -9,8 +9,8 @@ const router = createBrowserRouter([
     element: <h2>Home</h2>,
   },
   {
-    path: "/coffee",
-    element: <h2>Coffees</h2>,
+    path: "/users",
+    element: <h2>Users</h2>,
   },
 ]);
 createRoot(document.getElementById("root")).render(
